@@ -17,7 +17,7 @@
 <meta property="og:image" content="https://gitee.com/jsxc6933/github.com/raw/master/3.png">
 <meta property="og:image" content="https://gitee.com/jsxc6933/github.com/raw/master/4.png">
 <meta property="og:image" content="https://gitee.com/jsxc6933/github.com/raw/master/5.png">
-<meta property="og:updated_time" content="2020-03-27T11:49:25.420Z">
+<meta property="og:updated_time" content="2020-04-01T11:05:57.759Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="万能脚本录制工具VIP版本（支持鼠标&#x2F;键盘 前台&#x2F;后台按键 支持模式更多更强大）">
 <meta name="twitter:description" content="前言： 鉴于很多朋友没有编程基础，无法自己制作脚本。本人编写了一款集录制脚本与执行脚本于一体的程序，并调用了大漠插件免费版本。使没有编程基础的同学也能制作自己的脚本。并引起了很多朋友的喜爱。并希望兼容更多的绑定模式。 鉴于此我调用了最新版本的大漠插件，并把所有绑定模式写在了新版本的程序中。使功能更强大，也基本支持所有的游戏的后台按键。 效果图： 本程序是一款模拟鼠标键盘动作的软件。通过制作脚本，可">
@@ -224,7 +224,7 @@
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2020-03-27 19:49:25'>2019-07-22 21:35</time>
+        创建时间:<time class="date" title='更新时间: 2020-04-01 19:05:57'>2019-07-22 21:35</time>
         
     </div>
     <div class="article-meta">
@@ -246,7 +246,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#4-支持录制组合键（例如：CTRL-C，CTRL-V等），支持录制鼠标滑轮滚动。"><span class="toc-text">4.支持录制组合键（例如：CTRL+C，CTRL+V等），支持录制鼠标滑轮滚动。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#脚本执行模式说明："><span class="toc-text">脚本执行模式说明：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#绑定窗口模式：需要拖动图标到执行窗口，获取句柄，来达到针对此窗口的前台-后台"><span class="toc-text">绑定窗口模式：需要拖动图标到执行窗口，获取句柄，来达到针对此窗口的前台/后台</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#按键"><span class="toc-text">按键</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#键盘仿真模式-取值有以下几种"><span class="toc-text">键盘仿真模式 取值有以下几种</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#不绑定窗口模式：不需要拖动图标获取句柄，此模式为完全前台操作"><span class="toc-text">不绑定窗口模式：不需要拖动图标获取句柄，此模式为完全前台操作</span></a>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#脚本执行模式说明："><span class="toc-text">脚本执行模式说明：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#绑定窗口模式：需要拖动图标到执行窗口，获取句柄，来达到针对此窗口的前台-后台"><span class="toc-text">绑定窗口模式：需要拖动图标到执行窗口，获取句柄，来达到针对此窗口的前台/后台</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#按键鼠标仿真模式-取值有以下几种"><span class="toc-text">按键鼠标仿真模式 取值有以下几种:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#键盘仿真模式-取值有以下几种"><span class="toc-text">键盘仿真模式 取值有以下几种</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#公共属性-dx模式取值可以是以下任意组合-组合采用”-”符号进行连接-这个值可以为空"><span class="toc-text">公共属性 dx模式取值可以是以下任意组合. 组合采用”|”符号进行连接 这个值可以为空</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#mode-整形数-模式。取值有以下几种"><span class="toc-text">mode 整形数: 模式。取值有以下几种</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#不绑定窗口模式：不需要拖动图标获取句柄，此模式为完全前台操作"><span class="toc-text">不绑定窗口模式：不需要拖动图标获取句柄，此模式为完全前台操作</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -268,20 +268,20 @@
 <p>本程序是一款模拟鼠标键盘动作的软件。通过制作脚本，可以代替双手，自动执行一系列鼠标键盘动作。本程序简单易用，不需要任何编程知识就可以作出功能强大的脚本。只要在电脑前用双手可以完成的动作，本程序都可以替代完成。</p>
 <p>==========================================================================================<br>本程序是一款模拟鼠标键盘动作的软件。通过制作脚本，可以代替双手，自动执行一系列鼠标键盘动作。本程序简单易用，不需要任何编程知识就可以作出功能强大的脚本。只要在电脑前用双手可以完成的动作，本程序都可以替代完成。</p>
 <hr>
-<p>软件下载地址：<a href="https://pan.baidu.com/s/1AyVDMfQGViqlja8mWVmB0w" target="_blank" rel="noopener">https://pan.baidu.com/s/1AyVDMfQGViqlja8mWVmB0w</a> 提取码: ks71 </p>
-<p>（程序必须以管理员模式运行，点击程序–右键–以管理员身份运行）</p>
+<p>软件下载地址：<br>普通下载：<a href="https://gitee.com/jsxc6933/github.com/raw/master/%E4%B8%87%E8%83%BD%E8%84%9A%E6%9C%AC%E5%BD%95%E5%88%B6%E5%99%A8VIP%E7%89%88%E6%9C%ACv12.17.rar" target="_blank" rel="noopener">https://gitee.com/jsxc6933/github.com/raw/master/%E4%B8%87%E8%83%BD%E8%84%9A%E6%9C%AC%E5%BD%95%E5%88%B6%E5%99%A8VIP%E7%89%88%E6%9C%ACv12.17.rar</a><br>网盘下载：<a href="https://pan.baidu.com/s/1NETU37wu1LtYBtil_S6yKw" target="_blank" rel="noopener">https://pan.baidu.com/s/1NETU37wu1LtYBtil_S6yKw</a> 提取码: 888g<br>（程序必须以管理员模式运行，点击程序–右键–以管理员身份运行）</p>
 <p>(程序加壳，可能会引起杀软误报。请放心使用，绝对无毒！)</p>
+<p>使用教程：<br>1.万能脚本录制器使用教程之QQ轰炸器录制教程<br>在线播放（选择高清720P）：<a href="https://v.youku.com/v_show/id_XNDYxMzgxNjYyMA==.html?spm=a2hbt.13141534.app.5~5!2~5!2~5~5~5!2~5~5!2~5!2~5!2~5~5~A" target="_blank" rel="noopener">https://v.youku.com/v_show/id_XNDYxMzgxNjYyMA==.html?spm=a2hbt.13141534.app.5~5!2~5!2~5~5~5!2~5~5!2~5!2~5!2~5~5~A</a><br>教程下载：<a href="https://pan.baidu.com/s/1IjFQS3IRbBPx2WH4zf-FUw" target="_blank" rel="noopener">https://pan.baidu.com/s/1IjFQS3IRbBPx2WH4zf-FUw</a> 提取码: 49q6<br>2.万能脚本录制器使用教程之模拟器喊话器教程<br>在线播放（选择高清720P）：<a href="https://v.youku.com/v_show/id_XNDYxMzgxNzk3Ng==.html?spm=a2hbt.13141534.app.5~5!2~5!2~5~5~5!2~5~5!2~5!2~5!2~5~5!2~A" target="_blank" rel="noopener">https://v.youku.com/v_show/id_XNDYxMzgxNzk3Ng==.html?spm=a2hbt.13141534.app.5~5!2~5!2~5~5~5!2~5~5!2~5!2~5!2~5~5!2~A</a><br>教程下载：<a href="https://pan.baidu.com/s/1dN8etDwUshcQ90O2G92ahQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1dN8etDwUshcQ90O2G92ahQ</a> 提取码: azaz </p>
 <hr>
 <p>软件特点：</p>
 <p>1.本程序支持前台/后台 执行鼠标键盘动作</p>
 <p>2.本程序支持录制/编辑/保存脚本 </p>
-<p>3.本程序兼容大部分WINDOWS系统</p>
-<h2 id="4-支持录制组合键（例如：CTRL-C，CTRL-V等），支持录制鼠标滑轮滚动。"><a href="#4-支持录制组合键（例如：CTRL-C，CTRL-V等），支持录制鼠标滑轮滚动。" class="headerlink" title="4.支持录制组合键（例如：CTRL+C，CTRL+V等），支持录制鼠标滑轮滚动。"></a>4.支持录制组合键（例如：CTRL+C，CTRL+V等），支持录制鼠标滑轮滚动。</h2><h2 id="脚本执行模式说明："><a href="#脚本执行模式说明：" class="headerlink" title="脚本执行模式说明："></a>脚本执行模式说明：</h2><p>============================================================================================</p>
-<h1 id="绑定窗口模式：需要拖动图标到执行窗口，获取句柄，来达到针对此窗口的前台-后台"><a href="#绑定窗口模式：需要拖动图标到执行窗口，获取句柄，来达到针对此窗口的前台-后台" class="headerlink" title="绑定窗口模式：需要拖动图标到执行窗口，获取句柄，来达到针对此窗口的前台/后台"></a>绑定窗口模式：需要拖动图标到执行窗口，获取句柄，来达到针对此窗口的前台/后台</h1><h2 id="按键"><a href="#按键" class="headerlink" title="按键"></a>按键</h2><p>鼠标仿真模式 取值有以下几种</p>
-<p>“normal” : 正常模式,平常我们用的前台鼠标模式</p>
+<p>3.本程序兼容大部分WINDOWS系统<br>4.支持录制组合键（例如：CTRL+C，CTRL+V等），支持录制鼠标滑轮滚动。</p>
+<hr>
+<h1 id="脚本执行模式说明："><a href="#脚本执行模式说明：" class="headerlink" title="脚本执行模式说明："></a>脚本执行模式说明：</h1><p>===============================================================</p>
+<h1 id="绑定窗口模式：需要拖动图标到执行窗口，获取句柄，来达到针对此窗口的前台-后台"><a href="#绑定窗口模式：需要拖动图标到执行窗口，获取句柄，来达到针对此窗口的前台-后台" class="headerlink" title="绑定窗口模式：需要拖动图标到执行窗口，获取句柄，来达到针对此窗口的前台/后台"></a>绑定窗口模式：需要拖动图标到执行窗口，获取句柄，来达到针对此窗口的前台/后台</h1><h2 id="按键鼠标仿真模式-取值有以下几种"><a href="#按键鼠标仿真模式-取值有以下几种" class="headerlink" title="按键鼠标仿真模式 取值有以下几种:"></a>按键鼠标仿真模式 取值有以下几种:</h2><p>“normal” : 正常模式,平常我们用的前台鼠标模式</p>
 <p>“windows”: Windows模式,采取模拟windows消息方式 同按键的后台插件.</p>
 <p>“windows3”: Windows3模式，采取模拟windows消息方式,可以支持有多个子窗口的窗口后台</p>
-<p>dx模式,取值可以是以下任意组合. 组合采用”|”符号进行连接. 支持BindWindow中的缩写模式,比如windows2代表”dx.mouse.position.lock.api|dx.mouse.position.lock.message|dx.mouse.state.message”</p>
+<p>dx模式,取值可以是以下任意组合. 组合采用”|”符号进行连接. </p>
 <ol>
 <li><p>“dx.mouse.position.lock.api”  此模式表示通过封锁系统API，来锁定鼠标位置.</p>
 </li>
@@ -310,9 +310,10 @@
 <li><p>“dx.mouse.input.lock.api3”  部分窗口在后台操作时，前台鼠标会移动,需要这个属性.</p>
 </li>
 </ol>
+<p>===============================================================</p>
 <h2 id="键盘仿真模式-取值有以下几种"><a href="#键盘仿真模式-取值有以下几种" class="headerlink" title="键盘仿真模式 取值有以下几种"></a>键盘仿真模式 取值有以下几种</h2><p>“normal” : 正常模式,平常我们用的前台键盘模式</p>
 <p>“windows”: Windows模式,采取模拟windows消息方式 同按键的后台插件.</p>
-<p>dx模式,取值可以是以下任意组合. 组合采用”|”符号进行连接. 支持BindWindow中的缩写模式.比如dx代表” dx.public.active.api|dx.public.active.message| dx.keypad.state.api|dx.keypad.api|dx.keypad.input.lock.api”</p>
+<p>dx模式,取值可以是以下任意组合. 组合采用”|”符号进行连接. </p>
 <ol>
 <li><p>“dx.keypad.input.lock.api” 此模式表示通过封锁系统API来锁定键盘输入接口.</p>
 </li>
@@ -323,9 +324,8 @@
 <li><p>“dx.keypad.raw.input”  有些窗口需要这个才可以正常操作键盘.</p>
 </li>
 </ol>
-<p>公共属性 dx模式共有 </p>
-<p>取值可以是以下任意组合. 组合采用”|”符号进行连接 这个值可以为空</p>
-<ol>
+<p>===============================================================</p>
+<h2 id="公共属性-dx模式取值可以是以下任意组合-组合采用”-”符号进行连接-这个值可以为空"><a href="#公共属性-dx模式取值可以是以下任意组合-组合采用”-”符号进行连接-这个值可以为空" class="headerlink" title="公共属性 dx模式取值可以是以下任意组合. 组合采用”|”符号进行连接 这个值可以为空"></a>公共属性 dx模式取值可以是以下任意组合. 组合采用”|”符号进行连接 这个值可以为空</h2><ol>
 <li><p>“dx.public.active.api” 此模式表示通过封锁系统API来锁定窗口激活状态.  注意，部分窗口在此模式下会耗费大量资源慎用. </p>
 </li>
 <li><p>“dx.public.active.message” 此模式表示通过封锁系统消息来锁定窗口激活状态.  注意，部分窗口在此模式下会耗费大量资源慎用. 另外如果要让此模式生效，必须在绑定前，让绑定窗口处于激活状态,否则此模式将失效. 比如dm.SetWindowState hwnd,1 然后再绑定.</p>
@@ -369,8 +369,7 @@
 <li><p>“dx.public.hack.speed” 类似变速齿轮，配合接口HackSpeed使用</p>
 </li>
 </ol>
-<p>mode 整形数: 模式。取值有以下几种</p>
-<p>   ‘    0 : 推荐模式此模式比较通用，而且后台效果是最好的.</p>
+<h2 id="mode-整形数-模式。取值有以下几种"><a href="#mode-整形数-模式。取值有以下几种" class="headerlink" title="mode 整形数: 模式。取值有以下几种"></a>mode 整形数: 模式。取值有以下几种</h2><p>   ‘    0 : 推荐模式此模式比较通用，而且后台效果是最好的.</p>
 <p>   ‘    2 : 同模式0,如果模式0有崩溃问题，可以尝试此模式.  注意0和2模式，当主绑定(第一个绑定同个窗口的对象)绑定成功后，那么调用主绑定的线程必须一致维持,否则线程一旦推出,对应的绑定也会消失.</p>
 <p>   ‘    101 : 超级绑定模式. 可隐藏目标进程中的dm.dll.避免被恶意检测.效果要比dx.public.hide.dll好. 推荐使用.</p>
 <p>   ‘    103 : 同模式101，如果模式101有崩溃问题，可以尝试此模式.</p>
